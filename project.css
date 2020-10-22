@@ -1,0 +1,40 @@
+
+		html,body{
+			background-color: linen;
+			width: 98%; height: 97%;
+			margin: 10px 10px 10px 10px;
+			text-align: center;
+			font:  bold 20px 나눔고딕;
+			overflow:hidden/*스크롤잠금 */
+		}
+		#screen{/*게임판 id*/
+			background-color:#F5A9BC;
+			height: 100%; width: 100%;
+		}
+		nav>div{/*메뉴버튼*/
+			background-color:#FE2E64;
+			margin: 10px 10px 10px 10px;
+			padding: 15px 15px 15px 15px;
+		}
+		nav{/*메뉴배경*/
+			display:inline-block; 
+			height:90%;width:30%;
+			background-color: pink; 
+			float:left
+		}
+		section{
+			 display:inline-block;
+			 height:90%; width:70%;
+			 float:left;
+		}
+		table{/*투명테이블*/
+			width: 100%; 
+			table-layout: fixed;
+		
+		}
+		table>tr{width: 100%; height: 100%;}
+		td>img{
+		
+			margin: -1px -3px -3px -3px;
+			max-width:100px; max-height:100px;
+		}
